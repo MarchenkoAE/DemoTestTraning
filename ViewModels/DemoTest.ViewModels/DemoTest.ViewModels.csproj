@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ViewModels</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Models\CaptchaModel\DemoTest.CaptchaModel.csproj" />
+    <ProjectReference Include="..\..\Models\DemoTest.DataModels\DemoTest.DataModels.csproj" />
+    <ProjectReference Include="..\ViewModelCommandBases\DemoTest.ViewModelCommandBases.csproj" />
+  </ItemGroup>
+
+</Project>
